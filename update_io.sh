@@ -8,6 +8,6 @@ unzip io.zip && rm -f io.zip && echo "ok" || echo "fail! "
 cd stevedekorte-*
 echo -n "Building... "
 ./build.sh && echo "ok" || echo "fail! "
-sudo ./build install
+sudo ./build.sh install
 cd ..
-rm -Rf stevedekorte-*
+#rm -Rf stevedekorte-*
